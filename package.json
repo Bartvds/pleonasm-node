@@ -1,0 +1,48 @@
+{
+  "name": "pleonasm-node",
+  "description": "Node optimised re-wrap of pleonasm",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Bartvds/pleonasm-node",
+  "author": {
+    "name": "Bart van der Schoor",
+    "url": "https://github.com/Bartvds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bartvds/pleonasm-node"
+  },
+  "bugs": {
+    "url": "https://github.com/Bartvds/pleonasm-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Bartvds/pleonasm-node/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "hex",
+    "hash",
+    "base16"
+  ],
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "split": "~0.2.10"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.0",
+    "grunt-mocha-test": "~0.7.0",
+    "mocha-unfunk-reporter": "~0.3.6",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "jshint-path-reporter": "~0.1.3",
+    "chai": "~1.8.1"
+  }
+}
